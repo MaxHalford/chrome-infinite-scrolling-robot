@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Infinite scrolling robot",
+  "description": "Go to the bottom of an infinite scrolling page.",
+  "version": "1.0",
+
+  "permissions": [
+  	"tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+
+  "browser_action": {
+    "default_title": "Infinite scrolling robot",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
